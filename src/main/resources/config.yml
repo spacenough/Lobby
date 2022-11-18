@@ -1,0 +1,44 @@
+# Plugin został w 100% napisany przez: Mejbi#2137
+# Github: https://github.com/spacenough/
+
+# W razię problemów z pluginem, prosze zglosic to do mnie na discordzie
+
+# Jeżeli zakupiłeś ten plugin, to znaczy że ktoś cię oszukał, plugin jest udostępniony na githubie za darmo
+# i nigdy nie powinien byc sprzedawanY!
+
+# permisje: lobby.setlobby | lobby.lobby | lub op
+
+# komendy: /setlobby - automatycznie ustawia koordynaty lobby (tam gdzie stoisz). Mozesz to zrobic manualnie w configu (wymagana permisja nr.1)
+# komendy: /lobby - teleportacja na lobby (wymagana permisja nr.2)
+
+file-version: 1
+
+
+cooldown: 10 # cooldown teleportacji na lobby (komenda /lobby) w sekundach
+
+
+brak-uprawnien: '&cNie masz dostepu do tej komendy!' # wiadomosc do gracza ktory uzywa komend bez permisji
+
+
+inny-swiat: '&cNie mozesz ustawic lobby na tym swiecie!' # gdy gracz probuje ustawic lobby na innym swieci niz w: 'lobby-swiat'
+
+
+title-tekst: '&aLOBBY' # title przy komendzie /setlobby
+
+subtitle-tekst: '&7Poprawnie ustawiono lobby!'# subtitle przy komendzie /setlobby
+
+
+lobby-swiat: 'world' # nazwa swiata (tylko na nim mozna ustawic lobby)
+
+lobby-x: '0' # koordynaty lobby (liczba calkowita)
+lobby-y: '70'
+lobby-z: '0'
+
+
+teleportacja-lobby-title: '&c&lTELEPORTACJA' # title podczas teleportacji
+teleportacja-lobby-subtitle: '&cZostala przerwana! (Ruszyles sie!)' # subtitle gdy gracz sie poruszy
+teleportacja-lobby-subtitle-nastapi-za: '&e&lNastapi za: &6&l' # subtitle odliczanie do teleportacji (czas dodaje sie sam automatycznie, ty tylko mozesz zmienic jego kolor)
+
+
+teleportacja-lobby-przeteleportowano-title: '&6&lPRZETELEPORTOWANO!' # title po przeteleportowaniu na lobby
+teleportacja-lobby-przeteleportowano-subtitle: '&aWitamy na lobby!' # subtitle po przeteleportowaniu na lobby

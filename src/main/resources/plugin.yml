@@ -1,0 +1,10 @@
+name: Lobby
+version: '${project.version}'
+main: me.spacenough.lobby.Lobby
+api-version: 1.17
+authors: [ spacenough ]
+description: "Plugin w 100% napisany przez: Mejbi#2137, aka spacenough"
+
+commands:
+  setlobby:
+  lobby:
