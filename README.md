@@ -53,7 +53,6 @@ lobby-x: '0'
 lobby-y: '70'
 lobby-z: '0'
 
-
 # title podczas teleportacji
 teleportacja-lobby-title: '&c&lTELEPORTACJA' 
 
