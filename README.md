@@ -18,11 +18,13 @@ Plugin obecnie nie wspiera proxy.
 # Permisje
 
 **lobby.setlobby** - permisja do ustawiania lobby
+
 **lobby.lobby** - permisja do teleportacji na lobby
 
 # Komendy
 
 **/setlobby** - ustawia lobby w obecnej lokalizacji gracza
+
 **/lobby** - teleportuje gracza na lobby
 
 # Config / Plik konfiguracyjny
